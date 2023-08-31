@@ -1,0 +1,100 @@
+[
+    {
+        "_id": {
+            "$oid": "64f10a36ac1f049380dc2154"
+        },
+        "id": 85,
+        "num": "085",
+        "name": "Dodrio",
+        "img": "http://www.serebii.net/pokemongo/pokemon/085.png",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "height": "1.80 m",
+        "weight": "85.2 kg",
+        "candy": "Doduo Candy",
+        "egg": "Not in Eggs",
+        "spawn_chance": 0.22,
+        "avg_spawns": 22,
+        "spawn_time": "02:12",
+        "multipliers": null,
+        "weaknesses": [
+            "Electric",
+            "Rock"
+        ],
+        "prev_evolution": [
+            {
+                "num": "084",
+                "name": "Doduo"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "64f10a36ac1f049380dc218d"
+        },
+        "id": 142,
+        "num": "142",
+        "name": "Aerodactyl",
+        "img": "http://www.serebii.net/pokemongo/pokemon/142.png",
+        "type": [
+            "Rock",
+            "Flying"
+        ],
+        "height": "1.80 m",
+        "weight": "59.0 kg",
+        "candy": "None",
+        "egg": "10 km",
+        "spawn_chance": 0.018,
+        "avg_spawns": 1.8,
+        "spawn_time": "23:40",
+        "multipliers": null,
+        "weaknesses": [
+            "Water",
+            "Electric",
+            "Ice",
+            "Rock",
+            "Steel"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "64f10a36ac1f049380dc2192"
+        },
+        "id": 147,
+        "num": "147",
+        "name": "Dratini",
+        "img": "http://www.serebii.net/pokemongo/pokemon/147.png",
+        "type": [
+            "Dragon"
+        ],
+        "height": "1.80 m",
+        "weight": "3.3 kg",
+        "candy": "Dratini Candy",
+        "candy_count": 25,
+        "egg": "10 km",
+        "spawn_chance": 0.3,
+        "avg_spawns": 30,
+        "spawn_time": "06:41",
+        "multipliers": [
+            1.83,
+            1.84
+        ],
+        "weaknesses": [
+            "Ice",
+            "Dragon",
+            "Fairy"
+        ],
+        "next_evolution": [
+            {
+                "num": "148",
+                "name": "Dragonair"
+            },
+            {
+                "num": "149",
+                "name": "Dragonite"
+            }
+        ]
+    }
+]
