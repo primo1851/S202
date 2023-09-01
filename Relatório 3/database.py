@@ -1,4 +1,3 @@
-from typing import Collection
 import pymongo
 from dataset import dataset
 
