@@ -23,7 +23,7 @@ class Pokedex:
     def getPokemonsByHeight(self, heightParams):
         return db.collection.find({"height": heightParams})
 
-    def getPokemonsByPreviousEvolution(self, numberParams, nameParams):
+    def getPokemonsByPreviousEvolution(self, nameParams):
         return db.collection.find(
-            {"prev_evolution": {"$gt": numberParams, "$lt": nameParams}}
+            {"name": nameParams, "prev_evolution": {"$exists": True}}
         )
